@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body id="destination">
+  <header class="header">
+    <img src="assets/shared/logo.svg" alt="Logo" class="header__logo">
+    <span class="header__line">&nbsp;</span>
+    <ul class="header__navigation">
+      <svg class="header__navigation-close" xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+      <li class="header__navigation-item">
+        <a href="index.html" class="header__navigation-link"><span>00</span>Home</a>
+      </li>
+      <li class="header__navigation-item">
+        <a href="destination-europa.html" class="header__navigation-link link-active"><span>01</span>Destination</a>
+      </li>  
+      <li class="header__navigation-item">
+        <a href="crew-commander.html" class="header__navigation-link"><span>02</span>Crew</a>
+      </li>  
+      <li class="header__navigation-item">
+        <a href="technology-vehicle.html" class="header__navigation-link"><span>03</span>Technology</a>
+      </li>  
+    </ul>
+    <svg class="header__hamburger" xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+  </header>
+
+  <p class="section-name">
+    <span>01</span>Pick your destination
+  </p>
+
+  <section>
+    <div class="representation">
+      <img src="assets/destination/image-europa.png" alt="Europa" class="representation__planet-image">
+    </div>
+    
+    <div class="text text--destination">
+      <ul class="planet-navigation">
+        <li class="planet-navigation__item"><a href="destination-moon.html" class="planet-navigation__link">Moon</a></li>
+        <li class="planet-navigation__item"><a href="destination-mars.html" class="planet-navigation__link">Mars</a></li>
+        <li class="planet-navigation__item"><a href="destination-europa.html" class="planet-navigation__link planet-link-active">Europa</a></li>
+        <li class="planet-navigation__item"><a href="destination-titan.html" class="planet-navigation__link">Titan</a></li>
+      </ul>
+      <div class="text__top text__top--destination">
+        <div class="text__top--destination__average-distance">
+          <span>Avg. distance</span>
+          <p>628 mil. km</p>
+        </div>
+        <div class="text__top--destination__travel-time">
+          <span>Est. travel time</span>
+          <p>3 years</p>
+        </div>
+      </div>
+      <h1 class="text__middle">Europa</h1>
+      <p class="text__bottom">
+        The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+        winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+        ice skating, curling, hockey, or simple relaxation in your snug 
+        wintery cabin.
+      </p>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/AdekolaThanni" target="_blank">Adekola Thanni</a>.
+  </div>
+  <script src="js/jquery-3.6.0.slim.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
